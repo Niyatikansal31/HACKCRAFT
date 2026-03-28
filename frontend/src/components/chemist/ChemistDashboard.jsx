@@ -22,6 +22,7 @@ import {
   updateChemistProfile,
 } from '../../utils/chemistApi';
 import { chemistDummyInventory, chemistDummyOrders } from '../../utils/chemistDummyData';
+import { BASE_URL } from '../../utils/constants';
 
 const tabs = [
   ['inventory', 'Inventory'],
@@ -313,7 +314,7 @@ function EarningsSection({ earnings, earningsView, setEarningsView }) {
 }
 
 function ReportsSection({ reports, showToast }) {
-  const exportReport = async (format) => { try { const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000'; const token = localStorage.getItem('aid_token'); const response = await fetch(`${API_BASE}/api/chemist/reports/export?format=${format}`, { headers: token ? { Authorization: `Bearer ${token}` } : {} }); if (!response.ok) throw new Error('Export failed'); const blob = await response.blob(); const url = URL.createObjectURL(blob); const link = document.createElement('a'); link.href = url; link.download = `chemist-report.${format === 'pdf' ? 'pdf' : 'csv'}`; document.body.appendChild(link); link.click(); link.remove(); URL.revokeObjectURL(url); } catch (error) { showToast('error', 'Export failed', error.message); } };
+  const exportReport = async (format) => { try { const token = localStorage.getItem('aid_token'); const response = await fetch(`${BASE_URL}/api/chemist/reports/export?format=${format}`, { headers: token ? { Authorization: `Bearer ${token}` } : {} }); if (!response.ok) throw new Error('Export failed'); const blob = await response.blob(); const url = URL.createObjectURL(blob); const link = document.createElement('a'); link.href = url; link.download = `chemist-report.${format === 'pdf' ? 'pdf' : 'csv'}`; document.body.appendChild(link); link.click(); link.remove(); URL.revokeObjectURL(url); } catch (error) { showToast('error', 'Export failed', error.message); } };
   return <div className="space-y-3"><div className="aid-card flex gap-3"><button type="button" className="aid-btn-primary" onClick={() => exportReport('excel')}>Export Excel</button><button type="button" className="aid-btn-accent" onClick={() => exportReport('pdf')}>Export PDF</button></div><div className="aid-card"><p className="font-semibold">Weekly Revenue: Rs. {reports.weeklyRevenue || 0}</p><p className="font-semibold">Monthly Revenue: Rs. {reports.monthlyRevenue || 0}</p></div><div className="aid-card"><h3 className="font-semibold">Best Selling Medicines</h3><div className="mt-2 space-y-1">{reports.bestSelling?.map((item) => <div key={item.name} className="rounded-xl bg-gray-50 p-2 text-sm dark:bg-gray-900">{item.name} — {item.quantitySold} sold</div>)}</div></div><div className="aid-card"><h3 className="font-semibold">Stock Consumption Trend</h3><div className="mt-2 space-y-1">{reports.stockConsumption?.map((item) => <div key={item.medicine} className="rounded-xl bg-gray-50 p-2 text-sm dark:bg-gray-900">{item.medicine} — In stock {item.inStock}, Sold {item.estimatedSold}</div>)}</div></div></div>;
 }
 

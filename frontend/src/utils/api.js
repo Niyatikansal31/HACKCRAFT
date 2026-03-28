@@ -1,6 +1,5 @@
 import { queueRequest } from './offlineStore';
-
-const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+import { BASE_URL } from './constants';
 
 function isMutation(method = 'GET') {
   return ['POST', 'PUT', 'PATCH', 'DELETE'].includes(String(method).toUpperCase());
@@ -24,7 +23,7 @@ export async function apiRequest(path, options = {}) {
   const lowDataMode = document.documentElement.classList.contains('low-data-mode');
 
   try {
-    response = await fetch(`${API_BASE}${path}`, {
+    response = await fetch(`${BASE_URL}${path}`, {
       headers: {
         'Content-Type': 'application/json',
         'X-Low-Data-Mode': lowDataMode ? '1' : '0',
@@ -45,7 +44,7 @@ export async function apiRequest(path, options = {}) {
         : options.body;
 
       await queueRequest({
-        url: `${API_BASE}${path}`,
+        url: `${BASE_URL}${path}`,
         method,
         headers: {
           'Content-Type': 'application/json',
