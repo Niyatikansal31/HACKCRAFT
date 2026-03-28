@@ -22,7 +22,7 @@ import {
   updateChemistProfile,
 } from '../../utils/chemistApi';
 import { chemistDummyInventory, chemistDummyOrders } from '../../utils/chemistDummyData';
-import { BASE_URL } from '../../utils/constants';
+import BASE_URL from '../../config/api';
 
 const tabs = [
   ['inventory', 'Inventory'],

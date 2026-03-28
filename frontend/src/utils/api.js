@@ -1,5 +1,5 @@
 import { queueRequest } from './offlineStore';
-import { BASE_URL } from './constants';
+import BASE_URL from '../config/api';
 
 function isMutation(method = 'GET') {
   return ['POST', 'PUT', 'PATCH', 'DELETE'].includes(String(method).toUpperCase());
