@@ -1,0 +1,16 @@
+{
+  "common.home": "ہوم",
+  "common.findDoctors": "ڈاکٹر تلاش کریں",
+  "common.symptomChecker": "علامات کی جانچ",
+  "common.appointments": "اپائنٹمنٹس",
+  "common.login": "لاگ اِن",
+  "common.register": "رجسٹر",
+  "common.autoRead": "آٹو ریڈ",
+  "auth.createYourAccount": "اپنا اکاؤنٹ بنائیں",
+  "auth.welcomeBack": "واپس خوش آمدید",
+  "auth.verifyYourPhone": "اپنا فون تصدیق کریں",
+  "dashboard.aiSymptomChecker": "اے آئی علامت جانچ",
+  "dashboard.findDoctor": "ڈاکٹر تلاش کریں",
+  "chatbot.title": "اے آئی ڈی اے آئی معاون",
+  "emergency.panelTitle": "ہنگامی مدد پینل"
+}

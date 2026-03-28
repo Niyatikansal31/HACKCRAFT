@@ -1,0 +1,16 @@
+{
+  "common.home": "मुख्यपृष्ठ",
+  "common.findDoctors": "डॉक्टर शोधा",
+  "common.symptomChecker": "लक्षण तपासणी",
+  "common.appointments": "अपॉइंटमेंट्स",
+  "common.login": "लॉगिन",
+  "common.register": "नोंदणी",
+  "common.autoRead": "ऑटो रीड",
+  "auth.createYourAccount": "आपले खाते तयार करा",
+  "auth.welcomeBack": "परत स्वागत आहे",
+  "auth.verifyYourPhone": "आपला फोन सत्यापित करा",
+  "dashboard.aiSymptomChecker": "एआय लक्षण तपासणी",
+  "dashboard.findDoctor": "डॉक्टर शोधा",
+  "chatbot.title": "एआयडी एआय सहाय्यक",
+  "emergency.panelTitle": "आपत्कालीन मदत पॅनेल"
+}

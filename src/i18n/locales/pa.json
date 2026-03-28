@@ -1,0 +1,16 @@
+{
+  "common.home": "ਹੋਮ",
+  "common.findDoctors": "ਡਾਕਟਰ ਲੱਭੋ",
+  "common.symptomChecker": "ਲੱਛਣ ਜਾਂਚ",
+  "common.appointments": "ਮੁਲਾਕਾਤਾਂ",
+  "common.login": "ਲੌਗਇਨ",
+  "common.register": "ਰਜਿਸਟਰ",
+  "common.autoRead": "ਆਟੋ ਰੀਡ",
+  "auth.createYourAccount": "ਆਪਣਾ ਖਾਤਾ ਬਣਾਓ",
+  "auth.welcomeBack": "ਮੁੜ ਸੁਆਗਤ ਹੈ",
+  "auth.verifyYourPhone": "ਆਪਣਾ ਫੋਨ ਤਸਦੀਕ ਕਰੋ",
+  "dashboard.aiSymptomChecker": "ਏਆਈ ਲੱਛਣ ਜਾਂਚ",
+  "dashboard.findDoctor": "ਡਾਕਟਰ ਲੱਭੋ",
+  "chatbot.title": "ਏਆਈਡੀ ਏਆਈ ਸਹਾਇਕ",
+  "emergency.panelTitle": "ਐਮਰਜੈਂਸੀ ਸਹਾਇਤਾ ਪੈਨਲ"
+}

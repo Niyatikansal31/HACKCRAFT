@@ -1,0 +1,16 @@
+{
+  "common.home": "முகப்பு",
+  "common.findDoctors": "மருத்துவரை தேடுங்கள்",
+  "common.symptomChecker": "அறிகுறி சரிபார்ப்பு",
+  "common.appointments": "நியமனங்கள்",
+  "common.login": "உள்நுழை",
+  "common.register": "பதிவு செய்",
+  "common.autoRead": "தானாக வாசி",
+  "auth.createYourAccount": "உங்கள் கணக்கை உருவாக்குங்கள்",
+  "auth.welcomeBack": "மீண்டும் வரவேற்கிறோம்",
+  "auth.verifyYourPhone": "உங்கள் தொலைபேசியை சரிபார்க்கவும்",
+  "dashboard.aiSymptomChecker": "ஏஐ அறிகுறி சரிபார்ப்பு",
+  "dashboard.findDoctor": "மருத்துவரை தேடுங்கள்",
+  "chatbot.title": "ஏஐடி ஏஐ உதவியாளர்",
+  "emergency.panelTitle": "அவசர உதவி பலகம்"
+}

@@ -1,0 +1,16 @@
+{
+  "common.home": "ହୋମ",
+  "common.findDoctors": "ଡାକ୍ତର ଖୋଜନ୍ତୁ",
+  "common.symptomChecker": "ଲକ୍ଷଣ ଯାଞ୍ଚ",
+  "common.appointments": "ଆପଏଣ୍ଟମେଣ୍ଟ",
+  "common.login": "ଲଗଇନ",
+  "common.register": "ରେଜିଷ୍ଟର",
+  "common.autoRead": "ଅଟୋ ରିଡ୍",
+  "auth.createYourAccount": "ଆପଣଙ୍କ ଖାତା ସୃଷ୍ଟି କରନ୍ତୁ",
+  "auth.welcomeBack": "ପୁଣିଥରେ ସ୍ୱାଗତ",
+  "auth.verifyYourPhone": "ଆପଣଙ୍କ ଫୋନ ସତ୍ୟାପନ କରନ୍ତୁ",
+  "dashboard.aiSymptomChecker": "ଏଆଇ ଲକ୍ଷଣ ଯାଞ୍ଚ",
+  "dashboard.findDoctor": "ଡାକ୍ତର ଖୋଜନ୍ତୁ",
+  "chatbot.title": "ଏଆଇଡି ଏଆଇ ସହାୟକ",
+  "emergency.panelTitle": "ଜରୁରୀ ସହାୟତା ପ୍ୟାନେଲ"
+}

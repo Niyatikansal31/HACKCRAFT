@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+html.low-data-mode * {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900 transition-colors duration-300 dark:bg-gray-950 dark:text-gray-100;
+  }
+
+  label {
+    @apply text-lg;
+  }
+
+  input[type='checkbox'],
+  input[type='radio'] {
+    @apply h-6 w-6;
+  }
+}
+
+@layer components {
+  .aid-card {
+    @apply rounded-2xl bg-white p-6 shadow-md dark:bg-gray-800;
+  }
+
+  .aid-input {
+    @apply w-full rounded-lg border border-gray-200 bg-white p-3 text-base text-gray-900 outline-none transition focus:ring-2 focus:ring-blue-500 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100;
+  }
+
+  .aid-btn-primary {
+    @apply min-h-[56px] rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition-all hover:bg-blue-700 md:min-h-[48px];
+  }
+
+  .aid-btn-accent {
+    @apply min-h-[56px] rounded-lg bg-[#F87171] px-6 py-3 font-semibold text-white transition-all hover:bg-[#EF4444] md:min-h-[48px];
+  }
+}

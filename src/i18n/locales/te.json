@@ -1,0 +1,16 @@
+{
+  "common.home": "హోమ్",
+  "common.findDoctors": "వైద్యులను కనుగొనండి",
+  "common.symptomChecker": "లక్షణ పరీక్ష",
+  "common.appointments": "అపాయింట్మెంట్లు",
+  "common.login": "లాగిన్",
+  "common.register": "రిజిస్టర్",
+  "common.autoRead": "ఆటో రీడ్",
+  "auth.createYourAccount": "మీ ఖాతాను సృష్టించండి",
+  "auth.welcomeBack": "మళ్లీ స్వాగతం",
+  "auth.verifyYourPhone": "మీ ఫోన్‌ను నిర్ధారించండి",
+  "dashboard.aiSymptomChecker": "ఏఐ లక్షణ పరీక్ష",
+  "dashboard.findDoctor": "వైద్యుడిని కనుగొనండి",
+  "chatbot.title": "ఎయిడ్ ఎయి సహాయకుడు",
+  "emergency.panelTitle": "అత్యవసర సహాయ ప్యానెల్"
+}

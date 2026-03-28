@@ -1,0 +1,16 @@
+{
+  "common.home": "হোম",
+  "common.findDoctors": "ডাক্তার খুঁজুন",
+  "common.symptomChecker": "লক্ষণ পরীক্ষা",
+  "common.appointments": "অ্যাপয়েন্টমেন্ট",
+  "common.login": "লগইন",
+  "common.register": "রেজিস্টার",
+  "common.autoRead": "অটো রিড",
+  "auth.createYourAccount": "আপনার অ্যাকাউন্ট তৈরি করুন",
+  "auth.welcomeBack": "আবার স্বাগতম",
+  "auth.verifyYourPhone": "আপনার ফোন যাচাই করুন",
+  "dashboard.aiSymptomChecker": "এআই লক্ষণ পরীক্ষা",
+  "dashboard.findDoctor": "ডাক্তার খুঁজুন",
+  "chatbot.title": "এইড এআই সহকারী",
+  "emergency.panelTitle": "জরুরি সহায়তা প্যানেল"
+}
